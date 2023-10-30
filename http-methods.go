@@ -33,10 +33,18 @@ func (r *Request) Get(data_in ...map[string]string) ([]model.Response, int, erro
 }
 
 func (r *Request) CutPost() ([]model.Response, int, error) {
+
+	// fmt.Printf("CutPost ENCODE IN:%s\n", r.Data)
+
+	// fmt.Println("OBJETO:", r.Object)
+
 	body, err := cutkey.Encode(r.Object, r.Data...)
 	if err != nil {
+		// fmt.Printf("ENCODE ERROR:%v\n", err)
 		return nil, 0, err
 	}
+
+	// fmt.Printf("ENCODE:%s\n", body)
 
 	r.Method = "POST"
 
