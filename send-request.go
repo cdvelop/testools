@@ -10,11 +10,15 @@ import (
 
 func (r *Request) SendRequest(body []byte) ([]model.Response, int, error) {
 
-	req, err := http.NewRequest(r.Method, r.Server.URL+r.Endpoint, bytes.NewBuffer(body))
+	// req, err := http.NewRequest(r.Method, r.Server.URL+r.Endpoint, bytes.NewBuffer(body))
+	req, err := http.NewRequest(r.Method, r.Server.URL+r.Endpoint, nil)
 	if err != nil {
 		return nil, 0, err
 	}
 
+	if body != nil {
+		req.Body = io.NopCloser(bytes.NewBuffer(body))
+	}
 	// fmt.Println("SOLICITUD MÉTODO: ", req.Method)
 
 	if r.ContentType != "" {
@@ -33,5 +37,13 @@ func (r *Request) SendRequest(body []byte) ([]model.Response, int, error) {
 		return nil, 0, err
 	}
 
-	return r.DecodeResponses(resp), res.StatusCode, nil
+	// fmt.Printf("RESPUESTA BODY: %v\n", resp)
+
+	if body != nil {
+		return r.DecodeResponses(resp), res.StatusCode, nil
+
+	}
+
+	return nil, res.StatusCode, nil
+
 }
