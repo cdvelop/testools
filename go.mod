@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/cdvelop/cutkey v0.0.54
-	github.com/cdvelop/model v0.0.66
+	github.com/cdvelop/model v0.0.67
 )
 
 replace github.com/cdvelop/model => ../model
