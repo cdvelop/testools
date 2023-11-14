@@ -3,19 +3,19 @@ package testools
 import (
 	"net/http/httptest"
 
-	"github.com/cdvelop/cutkey"
 	"github.com/cdvelop/model"
 )
 
 type Request struct {
-	Endpoint    string //ej: create/files delete/x
-	Method      string //ej: "PUT","GET"
-	ContentType string //ej: multipart/form-data, application/json
+	Method   string //ej:POST, GET
+	Endpoint string // url
+	Object   string //ej: create/files delete/x
 
-	*model.Object
 	Data []map[string]string
 
-	ExpectedCode int
+	Expected []map[string]string
+
+	model.DataConverter
+	model.FetchAdapter
 	*httptest.Server
-	*cutkey.Cut
 }

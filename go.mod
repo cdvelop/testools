@@ -2,10 +2,7 @@ module github.com/cdvelop/testools
 
 go 1.20
 
-require (
-	github.com/cdvelop/cutkey v0.0.54
-	github.com/cdvelop/model v0.0.67
-)
+require github.com/cdvelop/model v0.0.68
 
 replace github.com/cdvelop/model => ../model
 

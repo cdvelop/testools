@@ -2,15 +2,17 @@ package testools
 
 import (
 	"fmt"
-	"log"
+	"reflect"
+	"testing"
 )
 
-func CheckTest(prueba string, expected, response interface{}, a ...any) {
+func CheckTest(prueba string, expected, response interface{}, t *testing.T, a ...any) {
 
-	if expected != response {
+	if !reflect.DeepEqual(expected, response) {
+		// if expected != response {
 		fmt.Println("=>PRUEBA: ", prueba)
-		fmt.Printf("=>SE ESPERABA:[%v]\n=>SE OBTUVO:[%v]\n", expected, response)
+		fmt.Printf("=>SE ESPERABA:[%v]\n\n=>SE OBTUVO:[%v]\n", expected, response)
 		fmt.Println(a...)
-		log.Fatal()
+		t.Fatal()
 	}
 }
