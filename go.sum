@@ -1,0 +1,14 @@
+github.com/cdvelop/filehandler v0.0.3 h1:aazyZl8jQmesq2ps65Pu09y5oLLrD3wU8jzCgexVXnA=
+github.com/cdvelop/gotools v0.0.56 h1:v3sM4Q7o6EKnJLlkhjuA4H3Cy+b7+xZLcbjE91BjjLc=
+github.com/cdvelop/gotools v0.0.56/go.mod h1:JPo/tmpkXlHvS/uGWY2ZRnUVi/t5ztn2jJ7Sz2+tMME=
+github.com/cdvelop/input v0.0.51 h1:IHQeFNMssQ0PHZ4nJhgqeqcc/shIoIJMmu/xmPZMhNE=
+github.com/cdvelop/input v0.0.51/go.mod h1:3RrHtNKY/nWapYHJZ70vsRs+DLN7u+qs0NRSz+4tiXM=
+github.com/cdvelop/object v0.0.26 h1:ujpdL8+V0Z2jKURRZHXzA8Xi/HV0UUQ6Xf40ThTGiK0=
+github.com/cdvelop/output v0.0.15 h1:jr7KZk1otcralqNh8AEa4D9QRbt2P6G87YoXbhMUTvY=
+github.com/cdvelop/output v0.0.15/go.mod h1:ZyLGNjwYLReBOcEsLoBuP6C9XP2h98LSD9Ufo7VUFPA=
+github.com/cdvelop/strings v0.0.6 h1:5fDnrGFFGv/mAVpdJrYc+R3sVirysCFwNuCQ6OJajJY=
+github.com/cdvelop/timetools v0.0.17 h1:zLxZlTtB5Fa3BEkWH8DG0bBBRfMEVcnHnyO5JYZkArU=
+github.com/cdvelop/timetools v0.0.17/go.mod h1:NfD5C1cvJJfRsWOsomr/EAGdd0/METdIVEioVsXeZEY=
+github.com/cdvelop/unixid v0.0.17 h1:dJzoreqbxe3QnVA9Zz1xT8MIKebh6mgbKax117uC+sU=
+golang.org/x/text v0.14.0 h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ=
+golang.org/x/text v0.14.0/go.mod h1:18ZOQIKpY8NJVqYksKHtTdi31H5itFRjB5/qKTNYzSU=

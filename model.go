@@ -2,6 +2,7 @@ package testools
 
 import (
 	"net/http/httptest"
+	"testing"
 
 	"github.com/cdvelop/model"
 )
@@ -11,11 +12,17 @@ type Request struct {
 	Endpoint string // url
 	Object   string //ej: create/files delete/x
 
-	Data []map[string]string
+	Data any
 
-	Expected []map[string]string
+	Expected any
 
 	model.DataConverter
 	model.FetchAdapter
 	*httptest.Server
+}
+
+type ApiTest struct {
+	*testing.T
+	*httptest.Server
+	*model.Handlers
 }
