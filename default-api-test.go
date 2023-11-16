@@ -11,13 +11,16 @@ import (
 	"github.com/cdvelop/model"
 )
 
-func NewApiTestDefault(t *testing.T, f model.FileApi, add_objects ...*model.Object) (*ApiTest, error) {
+func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Object) (*ApiTest, error) {
 
-	h := &model.Handlers{
-		AuthAdapter: AuthTest{},
-		Logger:      logserver.Add(),
-		FileApi:     f,
+	if h.AuthAdapter == nil {
+		h.AuthAdapter = AuthTest{}
 	}
+
+	if h.Logger == nil {
+		h.Logger = logserver.Add()
+	}
+
 	h.AddObjects(add_objects...)
 
 	cutkey.AddDataConverter(h)

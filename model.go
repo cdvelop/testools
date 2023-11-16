@@ -8,21 +8,22 @@ import (
 )
 
 type Request struct {
+	TestName string
+
 	Method   string //ej:POST, GET
-	Endpoint string // url
+	Endpoint string // ej: upload,create,read,update,delete,file
 	Object   string //ej: create/files delete/x
 
-	Data any
-
+	Data     any
 	Expected any
 
-	model.DataConverter
-	model.FetchAdapter
-	*httptest.Server
+	Analysis func(rq *Request, resp []map[string]string, err error)
+
+	*ApiTest
 }
 
 type ApiTest struct {
 	*testing.T
-	*httptest.Server
 	*model.Handlers
+	*httptest.Server
 }
