@@ -7,11 +7,27 @@ import (
 	"github.com/cdvelop/api"
 	"github.com/cdvelop/cutkey"
 	"github.com/cdvelop/fetchserver"
+	"github.com/cdvelop/fileserver"
 	"github.com/cdvelop/logserver"
 	"github.com/cdvelop/model"
 )
 
+// default:
+// h.FileRootFolder = "./test_folder"
+// h.App_name = "testApp"
 func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Object) (*ApiTest, error) {
+
+	if h.AppInfo.App_name == "" {
+		h.App_name = "testApp"
+		h.App_version = "0.0.1"
+		h.Business_name = "Business Testing"
+		h.Business_address = "Street 54 New York"
+		h.Business_phone = "555-4255-455"
+	}
+
+	if h.FileRootFolder == "" {
+		h.FileRootFolder = "./test_folder"
+	}
 
 	if h.AuthAdapter == nil {
 		h.AuthAdapter = AuthTest{}
@@ -28,6 +44,13 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 	err := fetchserver.AddFetchAdapter(h)
 	if err != nil {
 		return nil, err
+	}
+
+	if h.FileApi == nil {
+		_, err := fileserver.AddFileApi(h)
+		if err != nil {
+			return nil, err
+		}
 	}
 
 	conf, err := api.Add(h)
