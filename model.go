@@ -17,7 +17,7 @@ type Request struct {
 	Data     any
 	Expected any
 
-	Analysis func(rq *Request, resp []map[string]string, err error)
+	Analysis func(rq *Request, resp []map[string]string, err string)
 
 	*ApiTest
 }

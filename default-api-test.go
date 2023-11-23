@@ -15,7 +15,7 @@ import (
 // default:
 // h.FileRootFolder = "./test_folder"
 // h.App_name = "testApp"
-func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Object) (*ApiTest, error) {
+func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Object) (at *ApiTest, err string) {
 
 	if h.AppInfo.App_name == "" {
 		h.App_name = "testApp"
@@ -24,6 +24,7 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 		h.Business_address = "Street 54 New York"
 		h.Business_phone = "555-4255-455"
 	}
+	h.ProductionMode = false
 
 	if h.FileRootFolder == "" {
 		h.FileRootFolder = "./test_folder"
@@ -41,20 +42,20 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 
 	cutkey.AddDataConverter(h)
 
-	err := fetchserver.AddFetchAdapter(h)
-	if err != nil {
+	err = fetchserver.AddFetchAdapter(h)
+	if err != "" {
 		return nil, err
 	}
 
 	if h.FileApi == nil {
 		_, err := fileserver.AddFileApi(h)
-		if err != nil {
+		if err != "" {
 			return nil, err
 		}
 	}
 
 	conf, err := api.Add(h)
-	if err != nil {
+	if err != "" {
 		return nil, err
 	}
 
@@ -66,6 +67,6 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 		Handlers: h,
 	}
 
-	return new, nil
+	return new, ""
 
 }

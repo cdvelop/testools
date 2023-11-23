@@ -8,7 +8,7 @@ import (
 
 type AuthTest struct{}
 
-func (AuthTest) GetLoginUser(params any) (*model.User, error) {
+func (AuthTest) GetLoginUser(params any) (u *model.User, err string) {
 
 	user := model.User{
 		Token:          "123",
@@ -20,9 +20,9 @@ func (AuthTest) GetLoginUser(params any) (*model.User, error) {
 		LastConnection: time.Now().Format("2006-01-02 15:04:05"),
 	}
 
-	return &user, nil
+	return &user, ""
 }
 
-func (AuthTest) UserAuthNumber() (string, error) {
-	return "1", nil
+func (AuthTest) UserAuthNumber() (number string, err string) {
+	return "1", ""
 }
