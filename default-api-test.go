@@ -10,7 +10,6 @@ import (
 	"github.com/cdvelop/fileserver"
 	"github.com/cdvelop/logserver"
 	"github.com/cdvelop/model"
-	"github.com/cdvelop/wetest"
 )
 
 // default:
@@ -37,13 +36,6 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 
 	if h.Logger == nil {
 		h.Logger = logserver.Add()
-	}
-
-	if h.TestAdapter == nil {
-		err := wetest.AddE2ETestAdapter(h)
-		if err != "" {
-			return nil, err
-		}
 	}
 
 	h.AddObjects(add_objects...)
