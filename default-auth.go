@@ -26,3 +26,6 @@ func (AuthTest) GetLoginUser(params any) (u *model.User, err string) {
 func (AuthTest) UserAuthNumber() (number string, err string) {
 	return "1", ""
 }
+func (AuthTest) NameOfAuthHandler() (name string) {
+	return "aut_test"
+}
