@@ -6,11 +6,11 @@ require (
 	github.com/cdvelop/cutkey v0.6.0
 	github.com/cdvelop/fetchserver v0.0.9
 	github.com/cdvelop/logserver v0.0.10
-	github.com/cdvelop/model v0.0.75
+	github.com/cdvelop/model v0.0.76
 )
 
 require (
-	github.com/cdvelop/filehandler v0.0.12 // indirect
+	github.com/cdvelop/filehandler v0.0.13 // indirect
 	github.com/cdvelop/maps v0.0.7 // indirect
 	github.com/cdvelop/object v0.0.40 // indirect
 	github.com/cdvelop/output v0.0.16 // indirect
@@ -20,8 +20,8 @@ require (
 )
 
 require (
-	github.com/cdvelop/api v0.0.65
-	github.com/cdvelop/fileserver v0.0.29
+	github.com/cdvelop/api v0.0.67
+	github.com/cdvelop/fileserver v0.0.30
 	github.com/cdvelop/input v0.0.59 // indirect
 	github.com/cdvelop/strings v0.0.7 // indirect
 	github.com/cdvelop/timetools v0.0.25 // indirect
