@@ -30,8 +30,8 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 		h.FileRootFolder = "./test_folder"
 	}
 
-	if h.AuthAdapter == nil {
-		h.AuthAdapter = AuthTest{}
+	if h.AuthBackendAdapter == nil {
+		h.AuthBackendAdapter = AuthTest{}
 	}
 
 	if h.Logger == nil {

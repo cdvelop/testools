@@ -8,7 +8,7 @@ import (
 
 type AuthTest struct{}
 
-func (AuthTest) GetLoginUser(params any) (u *model.User, err string) {
+func (AuthTest) BackendCheckUser(params any) (u *model.User, err string) {
 
 	user := model.User{
 		Token:          "123",
