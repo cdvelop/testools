@@ -19,7 +19,6 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 
 	if h.AppInfo.App_name == "" {
 		h.App_name = "testApp"
-		h.App_version = "0.0.1"
 		h.Business_name = "Business Testing"
 		h.Business_address = "Street 54 New York"
 		h.Business_phone = "555-4255-455"
