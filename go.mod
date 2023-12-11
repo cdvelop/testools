@@ -21,7 +21,7 @@ require (
 
 require (
 	github.com/cdvelop/api v0.0.69
-	github.com/cdvelop/fileserver v0.0.33
+	github.com/cdvelop/fileserver v0.0.34
 	github.com/cdvelop/input v0.0.62 // indirect
 	github.com/cdvelop/strings v0.0.8 // indirect
 	github.com/cdvelop/timetools v0.0.28 // indirect
