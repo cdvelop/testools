@@ -53,6 +53,10 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 		}
 	}
 
+	if h.BackendBootDataUser == nil {
+		h.BackendBootDataUser = AuthTest{}
+	}
+
 	conf, err := api.Add(h)
 	if err != "" {
 		return nil, err

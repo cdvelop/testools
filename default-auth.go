@@ -29,3 +29,8 @@ func (AuthTest) UserAuthNumber() (number string, err string) {
 func (AuthTest) NameOfAuthHandler() (name string) {
 	return "login"
 }
+func (AuthTest) BackendLoadBootData(u *model.User) (out model.BootPageData) {
+	return model.BootPageData{
+		JsonBootActions: "none",
+	}
+}
