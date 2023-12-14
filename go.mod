@@ -8,12 +8,12 @@ require (
 	github.com/cdvelop/fetchserver v0.0.13
 	github.com/cdvelop/fileserver v0.0.38
 	github.com/cdvelop/logserver v0.0.14
-	github.com/cdvelop/model v0.0.89
+	github.com/cdvelop/model v0.0.90
 )
 
 require (
 	github.com/cdvelop/filehandler v0.0.20 // indirect
-	github.com/cdvelop/input v0.0.65 // indirect
+	github.com/cdvelop/input v0.0.66 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
 	github.com/cdvelop/object v0.0.48 // indirect
 	github.com/cdvelop/output v0.0.16 // indirect
