@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/cdvelop/api v0.0.77
 	github.com/cdvelop/cutkey v1.0.1
-	github.com/cdvelop/fetchserver v0.0.14
+	github.com/cdvelop/fetchserver v0.0.15
 	github.com/cdvelop/fileserver v0.0.38
 	github.com/cdvelop/logserver v0.0.15
 	github.com/cdvelop/model v0.0.90
