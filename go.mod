@@ -3,19 +3,19 @@ module github.com/cdvelop/testools
 go 1.20
 
 require (
-	github.com/cdvelop/api v0.0.86
+	github.com/cdvelop/api v0.0.87
 	github.com/cdvelop/cutkey v1.0.8
 	github.com/cdvelop/fetchserver v0.0.22
-	github.com/cdvelop/fileserver v0.0.46
-	github.com/cdvelop/logserver v0.0.23
+	github.com/cdvelop/fileserver v0.0.47
+	github.com/cdvelop/logserver v0.0.25
 	github.com/cdvelop/model v0.0.102
 )
 
 require (
-	github.com/cdvelop/filehandler v0.0.25 // indirect
+	github.com/cdvelop/filehandler v0.0.26 // indirect
 	github.com/cdvelop/input v0.0.74 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
-	github.com/cdvelop/object v0.0.58 // indirect
+	github.com/cdvelop/object v0.0.59 // indirect
 	github.com/cdvelop/output v0.0.16 // indirect
 	github.com/cdvelop/strings v0.0.9 // indirect
 	github.com/cdvelop/timetools v0.0.32 // indirect

@@ -34,7 +34,7 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 	}
 
 	if h.Logger == nil {
-		h.Logger = logserver.Add()
+		h.Logger = logserver.AddLoggerAdapter()
 	}
 
 	h.AddObjects(add_objects...)
