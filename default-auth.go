@@ -23,10 +23,10 @@ func (AuthTest) BackendCheckUser(params any) (u *model.User, err string) {
 	return &user, ""
 }
 
-func (AuthTest) UserAuthNumber() (number string, err string) {
+func (AuthTest) UserSessionNumber() (number string, err string) {
 	return "1", ""
 }
-func (AuthTest) NameOfAuthHandler() (name string) {
+func (AuthTest) SessionHandlerName() (name string) {
 	return "login"
 }
 func (AuthTest) BackendLoadBootData(u *model.User) (out model.BootPageData) {
