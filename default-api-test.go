@@ -15,7 +15,7 @@ import (
 // default:
 // h.FileRootFolder = "./test_folder"
 // h.App_name = "testApp"
-func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Object) (at *ApiTest, err string) {
+func NewApiTestDefault(t *testing.T, h *model.MainHandler, add_modules ...*model.Module) (at *ApiTest, err string) {
 
 	if h.AppInfo.App_name == "" {
 		h.App_name = "testApp"
@@ -37,7 +37,7 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 		h.Logger = logserver.AddLoggerAdapter()
 	}
 
-	h.AddObjects(add_objects...)
+	h.AddModules(add_modules...)
 
 	cutkey.AddDataConverter(h)
 
@@ -65,9 +65,9 @@ func NewApiTestDefault(t *testing.T, h *model.Handlers, add_objects ...*model.Ob
 	mux := conf.ServeMuxAndRoutes()
 
 	new := &ApiTest{
-		T:        t,
-		Server:   httptest.NewServer(mux),
-		Handlers: h,
+		T:           t,
+		Server:      httptest.NewServer(mux),
+		MainHandler: h,
 	}
 
 	return new, ""

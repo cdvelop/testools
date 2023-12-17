@@ -24,6 +24,6 @@ type Request struct {
 
 type ApiTest struct {
 	*testing.T
-	*model.Handlers
+	*model.MainHandler
 	*httptest.Server
 }
