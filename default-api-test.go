@@ -37,7 +37,7 @@ func NewApiTestDefault(t *testing.T, h *model.MainHandler, add_modules ...*model
 		h.Logger = logserver.AddLoggerAdapter()
 	}
 
-	h.MainHandlerAddModules(add_modules...)
+	h.AddModules(add_modules...)
 
 	cutkey.AddDataConverter(h)
 
