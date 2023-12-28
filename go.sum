@@ -1,8 +1,8 @@
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
-github.com/cdvelop/filehandler v0.0.34 h1:seowa29rJJeKGpyK+qFSMrZoOactczuLrohIFpacg1U=
-github.com/cdvelop/filehandler v0.0.34/go.mod h1:/Qoo0788DgT1swMvZb2bnJ8mirdkHo2ndtLRaRqRtrw=
-github.com/cdvelop/fileinput v0.0.64 h1:N3TyrezSbvWSDEv/eZNZOUt8i5NgHeRjaBowf4ZYx7w=
-github.com/cdvelop/gotools v0.0.80 h1:Bz+1ViGt4zgOtMxv7k4gFG5M2XK6RUD9W6qaU2+zhRs=
+github.com/cdvelop/filehandler v0.0.35 h1:6BlyHPgCfTBaQ8IIYc0nz2pIXqFTCvpEQ3NbUt3kZiE=
+github.com/cdvelop/filehandler v0.0.35/go.mod h1:/Qoo0788DgT1swMvZb2bnJ8mirdkHo2ndtLRaRqRtrw=
+github.com/cdvelop/fileinput v0.0.65 h1:i8eNdjobsPUPCih2oifFNSq5gskGCClYb60o/TSGNLg=
+github.com/cdvelop/gotools v0.0.81 h1:jI44jV/bx1rN/6oy5w7+Od4hKM3Pn1QN1byS3zUop2A=
 github.com/cdvelop/input v0.0.81 h1:WSGafBM1cR9gAOWxmd/rRnDoA4pK3SsvuKtDdKoXAVA=
 github.com/cdvelop/input v0.0.81/go.mod h1:HvpfVAR1VNgzzDojHp0qMFVt+sVi1jnDbFSFkRliSE0=
 github.com/cdvelop/maps v0.0.8 h1:7pc/iRC5mhf91TB8TaGoXkyFloH1pH1TWbLBR4kZhZY=
@@ -18,8 +18,8 @@ github.com/cdvelop/strings v0.0.9/go.mod h1:zNexDeXHRETbMmlmNThQeM7ksRsvzrphsCfw
 github.com/cdvelop/structs v0.0.1 h1:9H4JUJ/dK1zaUOpIgay4xZpP3O/Jh991nErccKknKZ8=
 github.com/cdvelop/structs v0.0.1/go.mod h1:dvym7DUgaMRqhdcDTgCQNkbuhr+HqfwdaDMeZTmIWEI=
 github.com/cdvelop/timeserver v0.0.31 h1:+Yt1ydpmtNDMJbFu29hcnmkwtK+BW+gBQyhbVVAvnHg=
-github.com/cdvelop/timetools v0.0.32 h1:tQPO4BwrEBrIGVMZHhsoYYeu8UXyF6hicm/Q54SET6k=
-github.com/cdvelop/timetools v0.0.32/go.mod h1:Y6C9bgqYnwI+WUuIiJs5VlfyNdVPsCN+42LxUB1S2yo=
+github.com/cdvelop/timetools v0.0.33 h1:GsoybW9u3hHeSp7rs9j6+h0at4m5Yf7uT02TWyIcTtM=
+github.com/cdvelop/timetools v0.0.33/go.mod h1:Uyl0BG3cb39AWz6rapTylUxUb/hLwFU2MJIyNqgU++4=
 github.com/cdvelop/unixid v0.0.48 h1:tt8SAwMs71iL1aLXbkV532m+OspBY9hLm4feqJil+hg=
 github.com/cdvelop/unixid v0.0.48/go.mod h1:w8X2pIUwxX7AcAHnrqVNAsZfmvFOoeLpg07xgCJF+Xs=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
