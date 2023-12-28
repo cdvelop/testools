@@ -3,7 +3,7 @@ module github.com/cdvelop/testools
 go 1.20
 
 require (
-	github.com/cdvelop/api v0.0.101
+	github.com/cdvelop/api v0.0.102
 	github.com/cdvelop/cutkey v1.0.14
 	github.com/cdvelop/fetchserver v0.0.26
 	github.com/cdvelop/fileserver v0.0.54
@@ -20,7 +20,7 @@ require (
 	github.com/cdvelop/strings v0.0.9 // indirect
 	github.com/cdvelop/structs v0.0.1 // indirect
 	github.com/cdvelop/timetools v0.0.34 // indirect
-	github.com/cdvelop/unixid v0.0.48 // indirect
+	github.com/cdvelop/unixid v0.0.49 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.19.0 // indirect
 )
