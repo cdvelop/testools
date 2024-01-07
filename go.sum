@@ -1,5 +1,5 @@
-github.com/cdvelop/api v0.0.105 h1:b2ompiXKdfkIkDJrxUTRtMaGXFVZyCm0GHZSAqlKIzs=
-github.com/cdvelop/api v0.0.105/go.mod h1:Q3hU6BH8IwAeAn8dUZd5nQiqXqLdHBiAEecu995Y/OE=
+github.com/cdvelop/api v0.0.106 h1:wj3+YhhPZpM1+A512JniOkjhAAMSXpJWJ38S2bPrpIY=
+github.com/cdvelop/api v0.0.106/go.mod h1:XKCONTAhewC+zIqpJE+HbpBnTEHwrWk/IoOgoBLG2hg=
 github.com/cdvelop/cutkey v1.0.15 h1:9shXpIJTbNHy/nEaI01V9uiwsJq75UiZN3DPtYtPVHM=
 github.com/cdvelop/cutkey v1.0.15/go.mod h1:oc/YMUxZqCNzf4MR2N0NbJguwBLrrDl8j/PeZTSR6go=
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
@@ -7,9 +7,9 @@ github.com/cdvelop/fetchserver v0.0.26 h1:X/xPu+YkoUaxD5KNnkyZSSmXF4HF9xQ55/H8rR
 github.com/cdvelop/fetchserver v0.0.26/go.mod h1:6VtPsHweXFI4Z8b8DrJxP4bLhVR0kYrrQKpmCWk/xpk=
 github.com/cdvelop/filehandler v0.0.39 h1:rDVTwgGW/wDSGWJWM5Z1aDa3rUdCy0ciY0SvEd/jg5E=
 github.com/cdvelop/filehandler v0.0.39/go.mod h1:WNbqBzCxXA7wP1tKvlRY2fnj46D3R+5yNDiYM5iMuUo=
-github.com/cdvelop/fileinput v0.0.71 h1:EIjU/HyuwyBdk0ROecl3c60YL7pC/4k8lCXwEitwAP4=
-github.com/cdvelop/fileserver v0.0.59 h1:POCGRLhWrVOPlL9fMHAfqWqHExd8wtwM7O4KxVEN6wI=
-github.com/cdvelop/fileserver v0.0.59/go.mod h1:/cCuA/j7dEdn1EzvKYzCN/Qf1lgWEf5AaXV1ikE1ToU=
+github.com/cdvelop/fileinput v0.0.72 h1:BWnU9TAP+oU7DKtsqCua0fyhiGIlNuJlqXhv9dpzWMw=
+github.com/cdvelop/fileserver v0.0.60 h1:QzU0zPINkf4MS4vf9qDIPznlaKZtknBG+Q6edr8fSbg=
+github.com/cdvelop/fileserver v0.0.60/go.mod h1:k9v7CXuvuQPttuVBTuwabQ0uo3U7/pSK1tFlWMqZTYA=
 github.com/cdvelop/gotools v0.0.82 h1:TaDhR4IhfcBdbvCeDyV0Tvyg7sxvxAZBPktpBDpgn2c=
 github.com/cdvelop/input v0.0.83 h1:GNtOgYFwS/PVjePEDGGiiNP9jn/bT2K80oHQ0ea2jK4=
 github.com/cdvelop/input v0.0.83/go.mod h1:IkjU2/0tE71mN1C6bLfeAAxe7P8MNM2w/+p7mUWCypA=
@@ -22,7 +22,7 @@ github.com/cdvelop/object v0.0.70/go.mod h1:mWrLTSukgYC2yj6rVXPYELmvHkwZzVKinbDK
 github.com/cdvelop/objectdb v0.0.114 h1:rgaOdo5WdYZrcJbHMA2rE0P0EMIIotRR2fiiMtisE2A=
 github.com/cdvelop/output v0.0.16 h1:4hmAy0kF98dVEWj2qq6fMtiq3pz1ZTDmxf9AgHiBb7g=
 github.com/cdvelop/output v0.0.16/go.mod h1:J0NdlSxlURjPlX82VUmaq7o9Z4omOSH0yLUoioPdELc=
-github.com/cdvelop/sqlite v0.0.104 h1:e+h7W7PfZT3cqYKycxV4U0uFlK6OXjTFGvcaonMDQLI=
+github.com/cdvelop/sqlite v0.0.105 h1:XnO5tOrlZO5i9lYz3bMGVOUiTXW8cJcwUdhr8frS0ss=
 github.com/cdvelop/strings v0.0.9 h1:yDh2msl3EQja0dHw+oOHfD9ymQMa50KakKTkjsXDnvw=
 github.com/cdvelop/strings v0.0.9/go.mod h1:zNexDeXHRETbMmlmNThQeM7ksRsvzrphsCfwuSxaURk=
 github.com/cdvelop/structs v0.0.1 h1:9H4JUJ/dK1zaUOpIgay4xZpP3O/Jh991nErccKknKZ8=

@@ -3,10 +3,10 @@ module github.com/cdvelop/testools
 go 1.20
 
 require (
-	github.com/cdvelop/api v0.0.105
+	github.com/cdvelop/api v0.0.106
 	github.com/cdvelop/cutkey v1.0.15
 	github.com/cdvelop/fetchserver v0.0.26
-	github.com/cdvelop/fileserver v0.0.59
+	github.com/cdvelop/fileserver v0.0.60
 	github.com/cdvelop/logserver v0.0.35
 	github.com/cdvelop/model v0.0.111
 )
