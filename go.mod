@@ -3,7 +3,7 @@ module github.com/cdvelop/testools
 go 1.20
 
 require (
-	github.com/cdvelop/api v0.0.107
+	github.com/cdvelop/api v0.0.108
 	github.com/cdvelop/cutkey v1.0.15
 	github.com/cdvelop/fetchserver v0.0.26
 	github.com/cdvelop/fileserver v0.0.60
@@ -12,7 +12,7 @@ require (
 )
 
 require (
-	github.com/cdvelop/filehandler v0.0.39 // indirect
+	github.com/cdvelop/filehandler v0.0.41 // indirect
 	github.com/cdvelop/input v0.0.83 // indirect
 	github.com/cdvelop/maps v0.0.8 // indirect
 	github.com/cdvelop/object v0.0.71 // indirect
