@@ -1,12 +1,12 @@
-github.com/cdvelop/api v0.0.109 h1:a/eL17vC3hKppvsWKHPQz/gD1E5lh6ieBVBntfsf8U4=
-github.com/cdvelop/api v0.0.109/go.mod h1:0WMqVPphcpetK6LYkYsSjSaEpVSgypN3UzEuVKwFNIY=
+github.com/cdvelop/api v0.0.111 h1:jBMJPid69s98ywXe8h7GKgfjejf9HuJluor0a5vtdUY=
+github.com/cdvelop/api v0.0.111/go.mod h1:ja3YJLDnAN4+6ygW0WZ6ColSAzJ5i79ply7CKJ8bJt4=
 github.com/cdvelop/cutkey v1.0.15 h1:9shXpIJTbNHy/nEaI01V9uiwsJq75UiZN3DPtYtPVHM=
 github.com/cdvelop/cutkey v1.0.15/go.mod h1:oc/YMUxZqCNzf4MR2N0NbJguwBLrrDl8j/PeZTSR6go=
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
 github.com/cdvelop/fetchserver v0.0.26 h1:X/xPu+YkoUaxD5KNnkyZSSmXF4HF9xQ55/H8rRN/HXQ=
 github.com/cdvelop/fetchserver v0.0.26/go.mod h1:6VtPsHweXFI4Z8b8DrJxP4bLhVR0kYrrQKpmCWk/xpk=
-github.com/cdvelop/filehandler v0.0.41 h1:XEXitdkm0k9XXupTW3QXF38e7j9tyQm+VhpKC4Dc+9c=
-github.com/cdvelop/filehandler v0.0.41/go.mod h1:GZYouN7JBLe6MXNiHvoqCs/G7b90/pFCuPu+n9zV5Jc=
+github.com/cdvelop/filehandler v0.0.42 h1:gwhJCQzQjH64IPBCr5Lsd3hB3rt2T535KCR1wjEyXW4=
+github.com/cdvelop/filehandler v0.0.42/go.mod h1:8wttk//dcd0t3W6JUXKt1Km5r7fL5U/EFgnmDTUmIXQ=
 github.com/cdvelop/fileinput v0.0.72 h1:BWnU9TAP+oU7DKtsqCua0fyhiGIlNuJlqXhv9dpzWMw=
 github.com/cdvelop/fileserver v0.0.60 h1:QzU0zPINkf4MS4vf9qDIPznlaKZtknBG+Q6edr8fSbg=
 github.com/cdvelop/fileserver v0.0.60/go.mod h1:k9v7CXuvuQPttuVBTuwabQ0uo3U7/pSK1tFlWMqZTYA=
