@@ -26,3 +26,5 @@ require (
 )
 
 replace github.com/cdvelop/model => ../model
+
+replace github.com/cdvelop/api => ../api

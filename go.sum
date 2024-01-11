@@ -1,5 +1,3 @@
-github.com/cdvelop/api v0.0.111 h1:jBMJPid69s98ywXe8h7GKgfjejf9HuJluor0a5vtdUY=
-github.com/cdvelop/api v0.0.111/go.mod h1:ja3YJLDnAN4+6ygW0WZ6ColSAzJ5i79ply7CKJ8bJt4=
 github.com/cdvelop/cutkey v1.0.15 h1:9shXpIJTbNHy/nEaI01V9uiwsJq75UiZN3DPtYtPVHM=
 github.com/cdvelop/cutkey v1.0.15/go.mod h1:oc/YMUxZqCNzf4MR2N0NbJguwBLrrDl8j/PeZTSR6go=
 github.com/cdvelop/dbtools v0.0.81 h1:1l6Dk3D5drReyaxacIzSF+mrDRNk/J1DKZU8bQbyGVg=
