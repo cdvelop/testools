@@ -7,7 +7,7 @@ require (
 	github.com/cdvelop/cutkey v1.0.15
 	github.com/cdvelop/fetchserver v0.0.26
 	github.com/cdvelop/fileserver v0.0.60
-	github.com/cdvelop/logserver v0.0.35
+	github.com/cdvelop/logserver v0.0.36
 	github.com/cdvelop/model v0.0.119
 )
 
