@@ -19,7 +19,7 @@ require (
 	github.com/cdvelop/output v0.0.16 // indirect
 	github.com/cdvelop/strings v0.0.9 // indirect
 	github.com/cdvelop/structs v0.0.1 // indirect
-	github.com/cdvelop/timetools v0.0.40 // indirect
+	github.com/cdvelop/timetools v0.0.41 // indirect
 	github.com/cdvelop/unixid v0.0.51 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	golang.org/x/net v0.20.0 // indirect
